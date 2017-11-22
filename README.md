@@ -4,6 +4,8 @@
 
 # html5-boilerplate
 
+### credits Dugnist/html5-boilerplate (https://github.com/Dugnist/html5-boilerplate)
+
 Get started
 
 ```
@@ -12,6 +14,9 @@ Get started
   npm i
   npm start
 ```
+
+How to create a favicon?
+https://www.favicon-generator.org/
 
 Put your files into /src folder.
 

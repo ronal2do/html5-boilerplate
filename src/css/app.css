@@ -133,12 +133,16 @@ hr {
  *******************
 */
 
+body {
+  font-family: 'Roboto', sans-serif;  
+}
+
 section {
   background: #fff;
 }
 
 main h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Ubuntu', sans-serif;  
 }
 
 /* HEADER */
@@ -146,7 +150,7 @@ main h1 {
 header {
   display: inline-block;
   width: 100%;
-  background: #ccc;
+  background: red;
 }
 
 header nav {

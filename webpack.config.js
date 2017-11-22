@@ -15,7 +15,7 @@ const CONFIG = {
         filename: 'app.js'
     },
     plugins: [
-      new webpack.optimize.UglifyJsPlugin(),
+      // new webpack.optimize.UglifyJsPlugin(),
       new HtmlWebpackPlugin({
         template: './src/index.html',
         filename: './index.html',
@@ -39,10 +39,16 @@ const CONFIG = {
       new OptimizeCssAssetsPlugin({
         cssProcessorOptions: { discardComments: { removeAll: true } }
       }),
-      new CopyWebpackPlugin([{
-        from: 'src/images/',
-        to: 'images/'
-      }]),
+      new CopyWebpackPlugin([
+        {
+          from: 'src/images/',
+          to: 'images/'
+        },
+        {
+          from: 'src/favicon.ico/',
+          to: 'favicon.ico/'
+        }
+      ]),
       new ImageminPlugin({
         test: /\.(jpe?g|png|gif|svg)$/i,
         optipng: { optimizationLevel: 3 },
