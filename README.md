@@ -9,7 +9,7 @@
 Get started
 
 ```
-  git clone https://github.com/Dugnist/html5-boilerplate.git my_project
+  git clone https://github.com/ronal2do/html5-boilerplate my_project
   cd my_project
   npm i
   npm start
